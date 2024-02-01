@@ -1,9 +1,20 @@
 import React, { useState } from "react";
 import ProjectCard from "../Layouts/ProjectCard";
+import Img1 from "../assets/img/img1.png"
+import Img2 from "../assets/img/img2.png"
+import Img3 from "../assets/img/img3.png"
+import Img4 from "../assets/img/img4.png"
+import Img5 from "../assets/img/img5.png"
+import Img6 from "../assets/img/img6.png"
+import Img7 from "../assets/img/img7.png"
+import Img8 from "../assets/img/img8.png"
+import Img9 from "../assets/img/img9.png"
+import Img10 from "../assets/img/img10.png"
+import Img11 from "../assets/img/img11.png"
 const Projects = () => {
   const Projects = [
     {
-      img: "../assets/img/img1.png",
+      img: Img1,
       id: 1,
       url: "https://shop-nike-javascript.netlify.app/",
       name:"Sneakers",
@@ -13,7 +24,7 @@ const Projects = () => {
       desc:"The frontend part works on the basis of responsive (adaptable) design and provides users with access to any device."
     },
     {
-      img: "./src/assets/img/img2.png",
+      img: Img2,
       id: 2,
       url: "https://addcart-javascript.netlify.app/",
       name:"Product list",
@@ -23,7 +34,7 @@ const Projects = () => {
       desc:"The site provides a personal shopping cart function for users. Users can  manage their orders, complete a purchase and view their orders."
     },
     {
-      img: "./src/assets/img/img3.png",
+      img: Img3,
       id: 3,
       url: "https://filter-javascript.netlify.app/",
       name:"Filter product",
@@ -33,7 +44,7 @@ const Projects = () => {
       desc:"The Watch website is a one-stop online platform that offers a wide range of watches. This site allows users to find, compare prices and buy your favorite watches."
     },
     {
-      img: "./src/assets/img/img4.png",
+      img: Img4,
       id: 4,
       url: "https://nike-tailwindcss-react.netlify.app/",
       name:"Nike",
@@ -43,7 +54,7 @@ const Projects = () => {
       desc:"The Nike website is a modern, convenient and efficient online store for buying shoes. This site is based on the React.js framework and designed with Tailwind CSS."
     },
     {
-      img: "./src/assets/img/img5.png",
+      img:Img5,
       id: 5,
       url: "https://redux-fashion-shop.netlify.app/",
       name:"Fashion shop",
@@ -53,7 +64,7 @@ const Projects = () => {
       desc:"The frontend part is designed with a responsive design. Tailwind CSS style framework allows you to learn the design according to the latest fashion trends."
     },
     {
-      img: "./src/assets/img/img6.png",
+      img: Img6,
       id: 6,
       url: "https://react-meals-shop.netlify.app/",
       name:"ReactMeals",
@@ -64,7 +75,7 @@ const Projects = () => {
     },
     
     {
-      img: "./src/assets/img/img8.png",
+      img:Img8,
       id: 8,
       url: "https://router-site-in-react.netlify.app/",
       name:"online business",
@@ -74,7 +85,7 @@ const Projects = () => {
       desc:"Online Business website is an online platform offering online business events, products and services."
     },
     {
-      img: "./src/assets/img/img9.png",
+      img: Img9,
       id: 9,
       url: "https://menu-filter-in-react.netlify.app/",
       name:"Menu",
@@ -84,7 +95,7 @@ const Projects = () => {
       type3:"usestate hooks",
     },
     {
-      img: "./src/assets/img/img10.png",
+      img: Img10,
       id: 10,
       url: "https://appz-only-html-css.netlify.app/",
       name:"Creative Appz",
@@ -94,7 +105,7 @@ const Projects = () => {
       type3:"responsive",
     },
     {
-      img: "./src/assets/img/img11.png",
+      img:Img11,
       id: 11,
       url: "https://add-expenses-react.netlify.app/",
       desc:" The frontend part is designed with a responsive design, and it is created for the purpose of user-friendly and faster service.",
@@ -104,7 +115,7 @@ const Projects = () => {
       type3:"react hooks",
     },
     {
-      img: "./src/assets/img/img7.png",
+      img: Img7,
       id: 7,
       url: "https://izohli-lugat.netlify.app/",
       name:"Izohli lug'at",
