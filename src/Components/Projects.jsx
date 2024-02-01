@@ -1,11 +1,9 @@
 import React, { useState } from "react";
 import ProjectCard from "../Layouts/ProjectCard";
-
-
 const Projects = () => {
   const Projects = [
     {
-      img: "./src/assets/img/img1.png",
+      img: "../assets/img/img1.png",
       id: 1,
       url: "https://shop-nike-javascript.netlify.app/",
       name:"Sneakers",
