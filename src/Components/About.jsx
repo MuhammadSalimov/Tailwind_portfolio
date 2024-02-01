@@ -52,22 +52,22 @@ const About = () => {
       {/* Card box */}
       <div className=" flex flex-col gap-5 sm:flex-row md:gap-7">
         <div className=" flex-1 flex flex-col gap-3 md:gap-8  rounded-lg text-white text-center items-center justify-center py-4 bg-card shadow-card border-lineColor border-2">
-          <MdOutlineWeb className=" text-white mt-5 mb-3  text-4xl " />
-          <h1 className=" text-2xl md:text-3xl lg:text-4xl text-primary font-bold  ">
+          <MdOutlineWeb className=" text-white mt-5 mb-1  text-6xl " />
+          <h1 className=" text-2xl md:text-3xl lg:text-4xl text-fblue font-bold  ">
             Frontend <br /> Developer
           </h1>
         </div>
         <div className=" flex-1 flex flex-col gap-3 md:gap-8  rounded-lg text-white text-center items-center justify-center py-4 bg-card shadow-card border-lineColor border-2">
-          <FaReact className="  text-white mt-5 mb-3 text-4xl" />
-          <h1 className=" text-2xl md:text-3xl lg:text-4xl text-primary font-bold  ">
+          <FaReact className="  text-white mt-5 mb-1 text-6xl" />
+          <h1 className=" text-2xl md:text-3xl lg:text-4xl text-fblue font-bold  ">
             React Native
             <br />
             Developer
           </h1>
         </div>
         <div className=" flex-1 flex flex-col gap-3 md:gap-8  rounded-lg text-white text-center items-center justify-center py-4 bg-card shadow-card border-lineColor border-2">
-          <FaNodeJs className=" text-white mt-5 mb-3  text-4xl" />
-          <h1 className=" text-2xl md:text-3xl lg:text-4xl text-primary font-bold  ">
+          <FaNodeJs className=" text-white mt-5 mb-1  text-6xl" />
+          <h1 className=" text-2xl md:text-3xl lg:text-4xl text-fblue font-bold  ">
             Backend <br /> Developer
           </h1>
         </div>
