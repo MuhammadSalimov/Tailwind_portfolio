@@ -1,5 +1,11 @@
 import { useState } from "react";
-import { FaInstagram, FaTelegram, FaYoutube, FaFacebook } from "react-icons/fa";
+import {
+  FaInstagram,
+  FaTelegram,
+  FaYoutube,
+  FaFacebook,
+  FaLinkedin,
+} from "react-icons/fa";
 import { IoMenuOutline, IoCloseSharp } from "react-icons/io5";
 import { NavLink } from "react-router-dom";
 
@@ -41,18 +47,28 @@ const Header = () => {
           <div className=" text-4xl font-bold"> Salimov. </div>
           <div className=" lg:flex hidden gap-10 pr-10 text-2xl items-center">
             <a
-              href="https://www.instagram.com/muhammad_salimov.22_27/"
+              href="https://www.linkedin.com/in/muhammad-salimov/"
               target="_blank"
+              rel="noreferrer"
             >
+              <FaLinkedin />
+            </a>
+            <a href="https://www.instagram.com/muhammad_salimov.22_27/">
               <FaInstagram />
             </a>
-            <a href="https://t.me/Salimov_1227" target="_blank">
+            <a
+              href="https://t.me/Salimov_1227"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaTelegram />
             </a>
-            <a href="https://t.me/Salimov_1227">
-              <FaYoutube />
-            </a>
-            <a href="https://t.me/Salimov_1227">
+
+            <a
+              href="https://t.me/Salimov_1227"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaFacebook />
             </a>
           </div>

@@ -4,7 +4,26 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ::-webkit-scrollbar{
+  width: 8px;
+} */
 
+::-webkit-scrollbar{
+  background-color: #050816;
+}
+
+
+
+::-webkit-scrollbar-corner{
+  background-color: white;
+  color: aqua;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #1b0f5e;
+  height: 5px !important;
+
+}
 
 * {
     margin: 0;
@@ -22,21 +41,52 @@
     clip-path: polygon(100% 0, 55% 100%, 45% 100%, 0 0);
     z-index: 1;
   }
-
+  .horizontal_line{
+    clip-path: polygon(100% 50%, 100% 50%, 0 70%, 0 30%);
+    position: relative;
+  }
+  
   .BgHero{
     clip-path: polygon(100% 78%, 56% 88%, 100% 90%, 100% 100%, 0 100%, 0 0, 100% 0);
   }
 
+  .h-parent{
+    position: relative;
+  }
+  .h-parent::after{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+    left: 0;
+    top: -2px;
+
+  }
 
   .PathBox{
     clip-path: polygon(100% 2%, 100% 100%, 0 98%, 0 94%, 0 22%, 0 0);
   }
   .IconPath{
     clip-path: polygon(100% 4%, 100% 25%, 96% 100%, 75% 100%, 0 96%, 0 75%, 4% 0, 25% 0);
-   
   }
 
 
+  #text-left{
+    text-align: left !important;
+  }
+
+  .svg-events {
+    background-color: #050816;
+    background-image: radial-gradient(
+      ellipse at 25% 75%,
+      #200f4c 5%,
+      #050816 40%,
+      #050816 80%
+    );
+  }
 
   .Sircle{
     transition:all .5s ease-in;
